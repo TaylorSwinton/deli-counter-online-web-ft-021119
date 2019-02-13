@@ -16,8 +16,8 @@ def take_a_number(katz_deli, string)
   katz_deli << string
   katz_deli.each.with_index do |name, index|
     puts "Welcome, #{name}. You are number #{index + 1} in line."
+    katz_deli << string
   end
-  katz_deli << string
 end
 
 def now_serving(katz_deli)
